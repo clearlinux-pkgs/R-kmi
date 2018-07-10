@@ -1,0 +1,76 @@
+2018-05-16 Arthur Allignol <arthur.allignol@gmail.com>
+
+	* Version number 0.5.4
+	* bug fix when the data with time-dependent variables are not
+	ordered
+
+2017-09-18 Arthur Allignol <arthur.allignol@gmail.com>
+
+	* Version number 0.5.3
+	* Maintainer email address change
+
+2017-01-13 Arthur Allignol <arthur.allignol@gmail.com> 
+
+	* version number 0.5.2
+	* NAMESPACE and DESCRIPTION: import stats and survival
+	* Examples and tests: require(survival) statements
+	* Rerun of the test file
+
+2013-09-16 Arthur Allignol <arthur.allignol@gmail.com>
+
+	* DESCRIPTION: update version number;
+	clean import,depends
+	* NAMESPACE: clean the imports
+
+2011-11-28 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* new version number 0.4
+	* kmi: new possibility to fit a proportional hazards model to
+	model the censoring distribution. Censoring times are then imputed
+	from the estimated model.
+
+2011-3-5 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* new version number 0.3-4
+	* icu.pneu: Add 2 covariates
+	* test: Rerun the test file
+
+2010-5-26 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* kmi.R: Function works when etype is specified as a factor
+	* test.kmi.R: New tests to check results when etype is specified as 
+	a factor
+	
+2009-5-25 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* Argument x in cox.kmi is replaced by imp.data
+	* Slight improvement of the documentation
+	
+2009-5-8 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* A t-test and associated p-value are computed in print.cox.kmi
+	and summary.cox.kmi
+	
+2009-5-6 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* New user interface.
+	Model specification in kmi is now done using formulas and works 
+	in a manner comparable to survfit for competing risks data
+
+	* New internal functions kmi.classic (for right-censored data)
+	and kmi.tdc (for right-censored data with time-dependent covariates)
+	instead of one single kmi function
+
+	* Individual results pooling in cox.kmi() is now done using MIcombine()
+	from the mitools package. 
+	New argument df.complete in cox.kmi
+
+	* Inclusion of a data set icu.
+	
+2009-4-17 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* Correct computation of the probabilities for the sampling in kmi
+	
+2009-3-4 Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+
+	* Creation of the package
