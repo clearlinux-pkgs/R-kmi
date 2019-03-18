@@ -4,13 +4,12 @@
 #
 Name     : R-kmi
 Version  : 0.5.4
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/kmi_0.5.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/kmi_0.5.4.tar.gz
 Summary  : Kaplan-Meier Multiple Imputation for the Analysis of Cumulative
 Group    : Development/Tools
 License  : GPL-2.0+
-Requires: R-mitools
 BuildRequires : R-mitools
 BuildRequires : buildreq-R
 
@@ -25,10 +24,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552792623
+export SOURCE_DATE_EPOCH=1552947341
 
 %install
-export SOURCE_DATE_EPOCH=1552792623
+export SOURCE_DATE_EPOCH=1552947341
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
