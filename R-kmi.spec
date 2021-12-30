@@ -4,7 +4,7 @@
 #
 Name     : R-kmi
 Version  : 0.5.5
-Release  : 27
+Release  : 28
 URL      : https://cran.r-project.org/src/contrib/kmi_0.5.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/kmi_0.5.5.tar.gz
 Summary  : Kaplan-Meier Multiple Imputation for the Analysis of Cumulative
